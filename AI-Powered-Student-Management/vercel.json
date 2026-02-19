@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "api/main.py",
+      "src": "AI-Powered-Student-Management/api/main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/main.py"
+      "dest": "AI-Powered-Student-Management/api/main.py"
     }
   ]
 }
