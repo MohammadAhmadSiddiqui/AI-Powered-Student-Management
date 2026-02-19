@@ -2,4 +2,4 @@ fastapi
 uvicorn
 textblob
 pydantic
-git remote add origin https://github.com/MohammadAhmadSiddiqui/AI-Powered-Student-Management.git
+git
