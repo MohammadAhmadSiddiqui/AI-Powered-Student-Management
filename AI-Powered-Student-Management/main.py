@@ -77,3 +77,4 @@ def search_students(query: str): #query input-should be string
         raise HTTPException(status_code=404, detail="No matching students found")
 
     return {"count": len(results), "students": results}
+ 
